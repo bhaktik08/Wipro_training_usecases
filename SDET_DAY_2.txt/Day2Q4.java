@@ -1,25 +1,26 @@
 package April_Batch;
 
-public class Day2Q5 {
+public class Day2Q4 {
+	
+	static int marks = 55;
 	public static void main(String[]args) {
-		int menu = 2;
-		switch(menu)
-		{
-		case 1:
-            System.out.println("You selected Pizza");
-            break;
-        case 2:
-            System.out.println("You selected Burger");
-            break;
-        case 3:
-            System.out.println("You selected Pasta");
-            break;
-        case 4:
-            System.out.println("You selected Sandwich");
-            break;
-        default:
-            System.out.println("Invalid choice");
+		
+		if(marks>= 90) {
+			System.out.println("Grade A+");
+		}
+		else if(marks>= 80 && marks<90) {
+			System.out.println("Grade A");
+		}
+		else if(marks>= 70 && marks<80) {
+			System.out.println("Grade B");
+		}
+		else if(marks<= 60 && marks<70) {
+			System.out.println("Grade C");
+		}
+		else if(marks<= 50) {
+			System.out.println("Grade D");
 		}
 	}
+	
 
 }
