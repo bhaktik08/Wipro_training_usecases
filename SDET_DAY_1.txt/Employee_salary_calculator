@@ -1,0 +1,31 @@
+  package Salary_cal;
+
+import java.util.Scanner;
+
+public class EmployeeSalary {
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double basicSalary, bonus, tax, netSalary;
+
+        
+        System.out.print("Enter Basic Salary: ");
+        basicSalary = sc.nextDouble();
+
+        System.out.print("Enter Bonus: ");
+        bonus = sc.nextDouble();
+
+        System.out.print("Enter Tax: ");
+        tax = sc.nextDouble();
+
+        
+        netSalary = basicSalary + bonus - tax;
+
+       
+        System.out.println("Net Salary: " + netSalary);
+        
+        sc.close();
+
+	}
+
+}
