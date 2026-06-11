@@ -1,0 +1,41 @@
+package April_Batch;
+import java.util.Scanner;
+
+public class loopQ3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int choice;
+
+        do {
+            System.out.println("\n1. Check Balance");
+            System.out.println("2. Withdraw");
+            System.out.println("3. Deposit");
+            System.out.println("4. Exit");
+
+            System.out.print("Enter choice: ");
+            choice = sc.nextInt();
+
+            switch (choice) {
+                case 1:
+                    System.out.println("Balance: 5000");
+                    break;
+                case 2:
+                    System.out.println("Withdraw Successful");
+                    break;
+                case 3:
+                    System.out.println("Deposit Successful");
+                    break;
+                case 4:
+                    System.out.println("Thank you!");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+
+        } while (choice != 4);
+
+        sc.close();
+    }
+
+}

@@ -1,0 +1,23 @@
+package ECom_Prod_details;
+
+
+public class ProductDetails {
+	public static void main(String[] args) {
+
+        String productName = "Shoes";
+        double price = 980;
+        int quantity = 1;
+        boolean available = true;
+
+
+
+        System.out.println("Product Details:");
+        
+        System.out.println("Name: " + productName);
+        System.out.println("Price: " + price);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Available: " + available);
+
+    }		
+
+}
