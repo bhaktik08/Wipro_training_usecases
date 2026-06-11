@@ -1,0 +1,27 @@
+package day_28;
+
+import static io.restassured.RestAssured.*;
+
+import org.testng.annotations.Test;
+
+public class UpdateUser_Test 
+{
+	@Test
+	public void updateUser()
+	{
+		String requestBody = "{\r\n"
+				+ "  \"lastName\": \"Owais\"\r\n"
+				+ "}";
+
+		given()
+			.header("Content-Type", "application/json")
+			.body(requestBody)
+
+		.when()
+			.put("https://dummyjson.com/users/2")
+
+		.then()
+			.statusCode(200)
+			.log().all();
+	}
+}

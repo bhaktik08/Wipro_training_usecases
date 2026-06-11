@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-25T18:26:01 IST" name="API Suite" finished-at="2026-05-25T18:26:32 IST" duration-ms="30859">
+    <groups>
+    </groups>
+    <test started-at="2026-05-25T18:26:01 IST" name="User API Test" finished-at="2026-05-25T18:26:32 IST" duration-ms="30859">
+      <class name="day_28.GetCurrentUser_Test">
+        <test-method signature="getCurrentUser()[pri:0, instance:day_28.GetCurrentUser_Test@76f4b65]" started-at="2026-05-25T18:26:15 IST" name="getCurrentUser" finished-at="2026-05-25T18:26:19 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentUser -->
+      </class> <!-- day_28.GetCurrentUser_Test -->
+      <class name="day_28.GetAllUsers_Test">
+        <test-method signature="getAllUsers()[pri:0, instance:day_28.GetAllUsers_Test@22f31dec]" started-at="2026-05-25T18:26:11 IST" name="getAllUsers" finished-at="2026-05-25T18:26:12 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+      </class> <!-- day_28.GetAllUsers_Test -->
+      <class name="day_28.SearchUser_Test">
+        <test-method signature="searchUser()[pri:0, instance:day_28.SearchUser_Test@c94fd30]" started-at="2026-05-25T18:26:19 IST" name="searchUser" finished-at="2026-05-25T18:26:20 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+      </class> <!-- day_28.SearchUser_Test -->
+      <class name="day_28.Login_Test">
+        <test-method signature="loginUser()[pri:0, instance:day_28.Login_Test@34c01041]" started-at="2026-05-25T18:26:12 IST" name="loginUser" finished-at="2026-05-25T18:26:15 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+      </class> <!-- day_28.Login_Test -->
+      <class name="day_28.LimitandSkip_Test">
+        <test-method signature="getLimitedUsers()[pri:0, instance:day_28.LimitandSkip_Test@2c4d1ac]" started-at="2026-05-25T18:26:22 IST" name="getLimitedUsers" finished-at="2026-05-25T18:26:23 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLimitedUsers -->
+      </class> <!-- day_28.LimitandSkip_Test -->
+      <class name="day_28.GetUsers_test">
+        <test-method signature="getUsers()[pri:0, instance:day_28.GetUsers_test@3fed2870]" started-at="2026-05-25T18:26:01 IST" name="getUsers" finished-at="2026-05-25T18:26:11 IST" duration-ms="10018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+      </class> <!-- day_28.GetUsers_test -->
+      <class name="day_28.DeleteUser_Test">
+        <test-method signature="deleteUser()[pri:0, instance:day_28.DeleteUser_Test@29526c05]" started-at="2026-05-25T18:26:29 IST" name="deleteUser" finished-at="2026-05-25T18:26:32 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day_28.DeleteUser_Test -->
+      <class name="day_28.AddNewUser">
+        <test-method signature="addUser()[pri:0, instance:day_28.AddNewUser@41e68d87]" started-at="2026-05-25T18:26:28 IST" name="addUser" finished-at="2026-05-25T18:26:28 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- day_28.AddNewUser -->
+      <class name="day_28.GetUserTodos_test">
+        <test-method signature="getUserPosts()[pri:0, instance:day_28.GetUserTodos_test@524f3b3a]" started-at="2026-05-25T18:26:27 IST" name="getUserPosts" finished-at="2026-05-25T18:26:28 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserPosts -->
+      </class> <!-- day_28.GetUserTodos_test -->
+      <class name="day_28.GetUsersPost_test">
+        <test-method signature="getUserPosts()[pri:0, instance:day_28.GetUsersPost_test@76a2ddf3]" started-at="2026-05-25T18:26:25 IST" name="getUserPosts" finished-at="2026-05-25T18:26:27 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserPosts -->
+      </class> <!-- day_28.GetUsersPost_test -->
+      <class name="day_28.GetUsersCarts_Test">
+        <test-method signature="getUserCarts()[pri:0, instance:day_28.GetUsersCarts_Test@545b995e]" started-at="2026-05-25T18:26:24 IST" name="getUserCarts" finished-at="2026-05-25T18:26:25 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserCarts -->
+      </class> <!-- day_28.GetUsersCarts_Test -->
+      <class name="day_28.UpdateUser_Test">
+        <test-method signature="updateUser()[pri:0, instance:day_28.UpdateUser_Test@49ff7d8c]" started-at="2026-05-25T18:26:28 IST" name="updateUser" finished-at="2026-05-25T18:26:29 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- day_28.UpdateUser_Test -->
+      <class name="day_28.FilterUser_Test">
+        <test-method signature="filterUser()[pri:0, instance:day_28.FilterUser_Test@36328d33]" started-at="2026-05-25T18:26:20 IST" name="filterUser" finished-at="2026-05-25T18:26:22 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterUser -->
+      </class> <!-- day_28.FilterUser_Test -->
+      <class name="day_28.SortUsers_Test">
+        <test-method signature="sortUsers()[pri:0, instance:day_28.SortUsers_Test@7f0d96f2]" started-at="2026-05-25T18:26:23 IST" name="sortUsers" finished-at="2026-05-25T18:26:24 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortUsers -->
+      </class> <!-- day_28.SortUsers_Test -->
+    </test> <!-- User API Test -->
+  </suite> <!-- API Suite -->
+</testng-results>

@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  User API Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>User API Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 25 18:26:01 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30859 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='day_28.GetUsers_test.getUsers()'><b>getUsers</b><br>Test class: day_28.GetUsers_test</td>
+<td></td>
+<td>10</td>
+<td>day_28.GetUsers_test@3fed2870</td></tr>
+<tr>
+<td title='day_28.Login_Test.loginUser()'><b>loginUser</b><br>Test class: day_28.Login_Test</td>
+<td></td>
+<td>2</td>
+<td>day_28.Login_Test@34c01041</td></tr>
+<tr>
+<td title='day_28.SearchUser_Test.searchUser()'><b>searchUser</b><br>Test class: day_28.SearchUser_Test</td>
+<td></td>
+<td>0</td>
+<td>day_28.SearchUser_Test@c94fd30</td></tr>
+<tr>
+<td title='day_28.DeleteUser_Test.deleteUser()'><b>deleteUser</b><br>Test class: day_28.DeleteUser_Test</td>
+<td></td>
+<td>2</td>
+<td>day_28.DeleteUser_Test@29526c05</td></tr>
+<tr>
+<td title='day_28.GetAllUsers_Test.getAllUsers()'><b>getAllUsers</b><br>Test class: day_28.GetAllUsers_Test</td>
+<td></td>
+<td>1</td>
+<td>day_28.GetAllUsers_Test@22f31dec</td></tr>
+<tr>
+<td title='day_28.AddNewUser.addUser()'><b>addUser</b><br>Test class: day_28.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>day_28.AddNewUser@41e68d87</td></tr>
+<tr>
+<td title='day_28.FilterUser_Test.filterUser()'><b>filterUser</b><br>Test class: day_28.FilterUser_Test</td>
+<td></td>
+<td>2</td>
+<td>day_28.FilterUser_Test@36328d33</td></tr>
+<tr>
+<td title='day_28.LimitandSkip_Test.getLimitedUsers()'><b>getLimitedUsers</b><br>Test class: day_28.LimitandSkip_Test</td>
+<td></td>
+<td>0</td>
+<td>day_28.LimitandSkip_Test@2c4d1ac</td></tr>
+<tr>
+<td title='day_28.SortUsers_Test.sortUsers()'><b>sortUsers</b><br>Test class: day_28.SortUsers_Test</td>
+<td></td>
+<td>1</td>
+<td>day_28.SortUsers_Test@7f0d96f2</td></tr>
+<tr>
+<td title='day_28.GetUsersCarts_Test.getUserCarts()'><b>getUserCarts</b><br>Test class: day_28.GetUsersCarts_Test</td>
+<td></td>
+<td>1</td>
+<td>day_28.GetUsersCarts_Test@545b995e</td></tr>
+<tr>
+<td title='day_28.GetCurrentUser_Test.getCurrentUser()'><b>getCurrentUser</b><br>Test class: day_28.GetCurrentUser_Test</td>
+<td></td>
+<td>3</td>
+<td>day_28.GetCurrentUser_Test@76f4b65</td></tr>
+<tr>
+<td title='day_28.UpdateUser_Test.updateUser()'><b>updateUser</b><br>Test class: day_28.UpdateUser_Test</td>
+<td></td>
+<td>1</td>
+<td>day_28.UpdateUser_Test@49ff7d8c</td></tr>
+<tr>
+<td title='day_28.GetUsersPost_test.getUserPosts()'><b>getUserPosts</b><br>Test class: day_28.GetUsersPost_test</td>
+<td></td>
+<td>1</td>
+<td>day_28.GetUsersPost_test@76a2ddf3</td></tr>
+<tr>
+<td title='day_28.GetUserTodos_test.getUserPosts()'><b>getUserPosts</b><br>Test class: day_28.GetUserTodos_test</td>
+<td></td>
+<td>0</td>
+<td>day_28.GetUserTodos_test@524f3b3a</td></tr>
+</table><p>
+</body>
+</html>
